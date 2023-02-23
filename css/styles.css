@@ -1,0 +1,206 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+ul,li {
+list-style: none;
+}
+a {
+text-decoration: none;
+}
+
+
+.contact-email{
+    font-weight: 400;
+    color: #434455;
+    font-style:normal;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+color: #404BBF;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus{
+        color: #404BBF;
+}
+
+.contact-phone-number{
+            font-weight: 400;
+            color: #434455;
+            font-style:normal;
+}
+
+.logotype{
+        font-family: 'Raleway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.5;  
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+
+.logo{
+  color: #4D5AE5;
+}
+
+.menu-link{
+        color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.hero-section{
+    background: #2E2F42;
+}
+
+.main-title{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.btn{
+        font-family:inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+
+.main-btn{
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.main-btn:hover {
+    background: #404BBF;;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+ 
+/* footer */
+
+.footer-logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-logotype {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-content {
+        font-weight: 400;
+        color: #E7E9FC;
+}
+
+.footer {
+    background: #2E2F42;
+}
+
+.paragraph-elements {
+        font-size: 20px;
+        line-height: 1.2;
+}
+
+.text-elements {
+        font-weight: 400;
+        color: #434455;
+}
+
+.section-three-text {
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+}
+
+.text-out-team {
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+}
+
+.name-employees {
+        font-size: 20px;
+        line-height: 1.2;
+}
+
+.text-direction {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+}
+
+.main-description {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.main-text {
+    font-weight: 400;
+    color: #434455;
+}
+
+.btn-main{
+    background: #F4F4FD; 
+    border: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    background: #404BBF;
+    color: #FFFFFF;
+    border-color: #404BBF;
+
+}
+
+.btn-main:focus {
+    background: #404BBF;
+    color: #ffffff;
+
+}
