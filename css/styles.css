@@ -25,6 +25,8 @@ height: auto;
 
 .main-header {
 padding: 24px 0;
+background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
 }
 
 ul{
@@ -41,6 +43,7 @@ text-decoration: none;
 
 .section-three {
     text-align: center;
+     padding-bottom: 120px;
 }
 
 .section-three-text{
@@ -82,10 +85,6 @@ text-decoration: none;
     font-style:normal;
 }
 
-.address-link {
-   margin-left: 40px;
-}
-
 .contact-email:hover,
 .contact-email:focus {
 color: #404BBF;
@@ -117,6 +116,7 @@ color: #404BBF;
 
 .address-list {
     display: flex;
+    gap: 40px;
 }
 
 .header-container {
@@ -157,7 +157,8 @@ color: #404BBF;
 
 
 .section-team{
-    padding: 120px 0;
+   background: #F4F4FD;
+   padding-bottom: 120px;
 }
 
 .main-title{
@@ -290,6 +291,7 @@ color: #404BBF;
 
 .main-description {
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     color: #2E2F42;
     margin-bottom: 8px;
@@ -368,5 +370,6 @@ color: #404BBF;
 }
 
 .main-section-portfolio {
-    padding: 96px 0 72px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
